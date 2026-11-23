@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">A caring moment at home</title>
+<desc id="desc">A warm illustration of a care professional sitting beside an older person in a comfortable home.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7f0e9"/><stop offset="1" stop-color="#c6ddd2"/></linearGradient>
+ <linearGradient id="sofa" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#789e91"/><stop offset="1" stop-color="#527b70"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<circle cx="970" cy="160" r="115" fill="#f8f4e9" opacity=".8"/>
+<path d="M0 700 Q260 620 520 700 T1200 670 V900 H0Z" fill="#d7e5d9"/>
+<ellipse cx="610" cy="790" rx="420" ry="48" fill="#46675e" opacity=".16" filter="url(#shadow)"/>
+<!-- window -->
+<rect x="85" y="90" width="360" height="350" rx="22" fill="#f8f7ef"/>
+<rect x="105" y="110" width="320" height="310" rx="12" fill="#c5ded5"/>
+<path d="M265 110V420M105 265H425" stroke="#f8f7ef" stroke-width="17"/>
+<circle cx="355" cy="180" r="48" fill="#f2d99e"/>
+<path d="M105 350 Q180 280 250 350 T425 345 V420H105Z" fill="#9bbcaf"/>
+<!-- plant -->
+<path d="M1030 665V420" stroke="#7c6650" stroke-width="16" stroke-linecap="round"/>
+<path d="M1030 500C930 460 920 385 948 360C1010 375 1042 435 1030 500ZM1032 550C1110 485 1170 510 1170 550C1135 605 1075 610 1032 550ZM1028 455C1000 380 1035 320 1075 315C1110 365 1085 420 1028 455Z" fill="#6f9b7d"/>
+<path d="M975 665H1085L1070 790H990Z" fill="#c28f70"/>
+<!-- sofa -->
+<path d="M250 600Q250 535 325 535H850Q930 535 930 610V760H250Z" fill="url(#sofa)"/>
+<rect x="215" y="660" width="760" height="105" rx="38" fill="#668d80"/>
+<rect x="270" y="555" width="260" height="175" rx="45" fill="#8eafa1"/>
+<rect x="650" y="555" width="240" height="175" rx="45" fill="#8eafa1"/>
+<!-- older person -->
+<path d="M520 610Q520 500 590 475Q660 500 685 610L700 710H500Z" fill="#d9a17f"/>
+<path d="M535 500Q540 420 615 420Q685 430 690 515L665 565H540Z" fill="#f1eee2"/>
+<ellipse cx="615" cy="390" rx="78" ry="92" fill="#bd8568"/>
+<path d="M540 375Q540 285 625 300Q700 310 688 390Q650 350 620 350Q580 360 540 375Z" fill="#e8e3d6"/>
+<path d="M580 405Q615 430 648 405" fill="none" stroke="#815b4e" stroke-width="7" stroke-linecap="round"/>
+<circle cx="585" cy="385" r="6" fill="#4b4742"/><circle cx="650" cy="385" r="6" fill="#4b4742"/>
+<!-- care professional -->
+<path d="M700 615Q710 505 785 485Q860 505 880 615L895 720H690Z" fill="#f5f1e6"/>
+<ellipse cx="790" cy="400" rx="75" ry="88" fill="#8c5c45"/>
+<path d="M720 385Q715 300 800 305Q870 310 860 390Q825 350 790 355Q755 355 720 385Z" fill="#302c2a"/>
+<path d="M735 500Q790 535 850 500" fill="none" stroke="#6b9b89" stroke-width="18" stroke-linecap="round"/>
+<circle cx="765" cy="395" r="6" fill="#282421"/><circle cx="820" cy="395" r="6" fill="#282421"/>
+<path d="M750 425Q790 450 830 425" fill="none" stroke="#583c34" stroke-width="6" stroke-linecap="round"/>
+<!-- joined hands -->
+<path d="M675 590Q720 570 750 600Q770 620 740 640Q700 655 665 625Z" fill="#bd8568"/>
+<path d="M660 610Q625 585 600 605Q580 625 610 645Q645 660 680 635Z" fill="#8c5c45"/>
+<path d="M0 0H1200V900H0Z" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="18"/>
+</svg>
